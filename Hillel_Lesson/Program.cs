@@ -1,4 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Text;
 
 namespace Hillel_Lesson
 {
@@ -6,7 +6,7 @@ namespace Hillel_Lesson
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }

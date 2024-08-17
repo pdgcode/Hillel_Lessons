@@ -41,7 +41,7 @@
             {
                 Console.Write("Введіть кількість рядків графіку: ");
                 int rows = Convert.ToInt32(Console.ReadLine());
-                for (int i = 0; i <= rows; i++)
+                for (int i = 1; i <= rows; i++)
                 {
                     for (int j = 0; j < i; j++)
                     {
@@ -67,7 +67,7 @@
                 }
                 else
                 {
-                    for (int i = 2; i <= number; i++)
+                    for (int i = 2; i < number; i++)
                     {
                         bool isPrime = true;
 
@@ -155,18 +155,13 @@
             {
                 Console.WriteLine("для якого числа вивести табличку множення? ");
                 int number = Convert.ToInt32(Console.ReadLine());
-                if (number <= 0)
-                {
-                    Console.WriteLine("Введіть число більше нуля");
-                }
-                else
-                {
+                
                     for (int i = 1; i <= 10; i++)
                     {
                         int sum = number * i;
                         Console.WriteLine($"{number} * {i} = {sum}");
                     }
-                }
+                
             }
             catch (Exception)
             {

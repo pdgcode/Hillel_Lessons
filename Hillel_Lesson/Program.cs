@@ -1,4 +1,4 @@
-﻿using System.Text;
+﻿using System.Threading.Channels;
 
 namespace Hillel_Lesson
 {
@@ -6,6 +6,9 @@ namespace Hillel_Lesson
     {
         static void Main(string[] args)
         {
+
+
+
 
         }
     }

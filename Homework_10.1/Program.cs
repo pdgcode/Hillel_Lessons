@@ -1,13 +1,11 @@
-﻿using System.Threading.Channels;
-
-namespace Hillel_Lesson
+﻿namespace Homework_10._1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            string input = "John Sohnson";
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            string input = "Pierre Polnareff";
 
             int spaceIndex = 0;
             for (int i = 0; i < input.Length; i++)
@@ -29,7 +27,6 @@ namespace Hillel_Lesson
             {
                 Console.WriteLine("Прізвище не починається на ту ж літеру, що і ім’я");
             }
-
         }
     }
 }

@@ -1,12 +1,9 @@
-﻿using System.Threading.Channels;
-
-namespace Hillel_Lesson
+﻿namespace Homework_10._3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
             string input = "один, два, три, чотири";
 
             string result = "";
@@ -19,7 +16,6 @@ namespace Hillel_Lesson
                 }
             }
             Console.WriteLine("Результат: " + result);
-
         }
     }
 }

@@ -48,7 +48,7 @@
                 sum += array2[i, i];
             }
 
-            Console.WriteLine("Сума елементів по головній діагоналі: " + sum);
+            Console.WriteLine("Сума елементів діагоналі: " + sum);
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Homwork_13._1
+namespace Homwork_10._2
 {
     internal class Program
     {

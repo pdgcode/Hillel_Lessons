@@ -6,7 +6,7 @@ namespace Hillel_Lesson
     {
         public static void Main(string[] args)
         {
-           
+         
         }
     }
 
